@@ -239,18 +239,10 @@ body{
 }
 
 .menu-item{
-    width:10rem;
     border:1px solid #ccc;
     margin:0 1rem 1rem 0;
 
-    &__img-container{
-        width:10rem;
-        height:10rem;
-    }
-
     &__img{
-        width:10rem;
-        height:10rem;
         object-fit:cover;
         object-position: center;
     }
@@ -259,6 +251,10 @@ body{
         padding:.5rem;
         font-size:1.2rem;
     }
+}
+
+.p2{
+    padding:2rem;
 }
 
 @media (max-width:550px) {
@@ -336,6 +332,20 @@ body{
         }
     }
 
+    .menu-item{
+        width:7rem;
+
+        &__img-container{
+            width:7rem;
+            height:7rem;
+        }
+
+        &__img{
+            width:7rem;
+            height:7rem;
+        }
+    }
+
 }
 
 @media (min-width:551px) {
@@ -386,7 +396,21 @@ body{
         }
 
         &__hours{
-            font-size:1.38rem;
+            font-size:1.2rem;
+        }
+    }
+
+    .menu-item{
+        width:10rem;
+
+        &__img-container{
+            width:10rem;
+            height:10rem;
+        }
+
+        &__img{
+            width:10rem;
+            height:10rem;
         }
     }
 
